@@ -1,4 +1,4 @@
-module github.com/arkadiyt/protodump
+module github.com/zjx20/protodump
 
 go 1.19
 

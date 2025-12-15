@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/arkadiyt/protodump/pkg/protodump"
+	"github.com/zjx20/protodump/pkg/protodump"
 )
 
 var debug bool
