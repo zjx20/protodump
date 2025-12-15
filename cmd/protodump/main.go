@@ -73,6 +73,11 @@ func main() {
 	flag.BoolVar(&debug, "v", false, "Verbose output")
 	flag.Parse()
 
+	// Enable scan debugging when verbose mode is on
+	if debug {
+		protodump.DebugScan = true
+	}
+
 	if *file == "" {
 		fmt.Printf("Usage:\n")
 		flag.PrintDefaults()
